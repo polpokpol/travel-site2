@@ -6,10 +6,19 @@
         margin-right: -65px;
     }
 
-    &--gutters > div{ /*pwede ring &--gutters div*/
+    &--gutters-large{
+        margin-right: -100px;
+    }
+
+    &--gutters > div{ /*pwede ring &--gutters div*/ /*update dapat na may > at sesearch ko pa*/
         padding-right: 65px;
         /* box-sizing: border-box; */
     }
+
+    &--gutters-large > div{
+        padding-right: 100px;
+    }
+
 
     &__b-margin-until-medium{
         margin-bottom: 1rem;
@@ -27,7 +36,12 @@
         }
 
         &__medium-4--larger{
-            width: 37%
+            width: 37%;
+        }
+
+        &__medium-6{
+            float: left;
+            width: 50%;
         }
     
         &__medium-8{
