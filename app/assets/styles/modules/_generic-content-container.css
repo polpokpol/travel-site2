@@ -1,9 +1,10 @@
 .generic-content-container{
 
-    p{
+    p{  
+        font-weight: 300;
         line-height: 1.65;
-        font-size: 1rem;
-        margin: 1.8rem 0;
+        font-size: 1rem; /* default font is 1rem so even if you did not specify it it is automatic 1rem*/
+        margin: 0 0 1.8rem 0; /*it means top right bottom left*/
 
         @mixin atSmall{
             font-size: 1.125rem;
