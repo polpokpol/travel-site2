@@ -25,6 +25,8 @@ $mainBlue: #2f5572;
 @import 'modules/_feature-item.css';
 @import 'modules/_testimonial.css';
 @import 'modules/_site-footer.css';
+@import 'modules/_site-header.css';
+@import 'modules/_primary-nav.css';
 
 /* body{
     font-family: 'Roboto', sans-serif;
