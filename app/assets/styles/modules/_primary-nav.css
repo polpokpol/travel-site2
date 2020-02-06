@@ -50,6 +50,12 @@
             font-size: 1rem;
             padding: 12px 0;
             background-color: transparent;
+
+            &.is-current-link{
+                color: #fabb69;
+                /* color: pink; */
+                /* color: rgb(255, ,0,0); */
+            }
         }
     }
 }

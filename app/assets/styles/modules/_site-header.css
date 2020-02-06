@@ -10,7 +10,12 @@
     }
 
     @mixin atMedium{
-        background-color: rgba(47, 85, 114, .3);
+        position: fixed;
+        background-color: rgba(47, 85, 114, 0.3);
+
+        &--dark{
+            background-color: rgba(23, 51, 72, 0.85);
+        }
     }
 
     &__btn-container{
@@ -24,16 +29,25 @@
         position: absolute;
         top: 0;
         left: 50%;
-        transform: translateX(-50%);
+        transition: transform 0.3s ease-out;
+        transform: translateX(-50%) scale(0.8);
+        transform-origin: 50% 0;
         background-color: $mainBlue;
-        padding: 13px 29px;
+        /* padding: 13px 29px; */
+        padding: 25px 36px;
 
         @mixin atMedium{
             left: auto;
             transform: translateX(0);
-            padding: 25px 36px;
+            /* padding: 25px 36px; */
+
+            .site-header--dark &{
+                transform: scale(.55);
+            }
         }
     }
+
+
 
     &__menu-icon{
         width: 20px;
