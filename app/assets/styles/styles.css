@@ -28,6 +28,8 @@ $mainBlue: #2f5572;
 @import 'modules/_site-header.css';
 @import 'modules/_primary-nav.css';
 @import 'modules/_reveal-item.css';
+@import 'modules/_modal.css';
+@import 'modules/_social-icons.css';
 
 /* body{
     font-family: 'Roboto', sans-serif;
