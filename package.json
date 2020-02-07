@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/polpokpol/travel-site2#readme",
   "dependencies": {
+    "lazysizes": "^5.2.0",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1"
   },
